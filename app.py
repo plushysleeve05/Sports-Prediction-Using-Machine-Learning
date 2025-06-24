@@ -33,6 +33,5 @@ def predict():
     
     return render_template('homepage.html', prediction=prediction)
 
-
 if __name__ == "__main__":
     app.run(port=3000, debug= True)
